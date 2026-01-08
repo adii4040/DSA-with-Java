@@ -5,7 +5,7 @@ package BinarySearch.Theory.TwoD_Array;
 
 import java.util.Arrays;
 
-public class Search_In_Sorted_Matrix {
+public class Search_In_rowwise_colwise_sorted_matrix {
     public static void main(String[] args) {
         int[][] arr = {
             {10,20,30,40},

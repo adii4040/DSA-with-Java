@@ -9,9 +9,9 @@ public class BinarySearch_In_Asc_Array {
     }
 
     //Binary search is always perform on the sorted arrays.
-    static int binarySearchAsc(int[] arr, int target) {
+    static int binarySearchAsc(int[] nums, int target) {
         int start = 0;
-        int end = arr.length - 1;
+        int end = nums.length - 1;
 
         while (start <= end) {
             // find the middle element
@@ -19,9 +19,9 @@ public class BinarySearch_In_Asc_Array {
             int mid = start + (end - start) / 2;
 
 
-            if (target < arr[mid]) { // if the targeted element is on the left side of the middle element
+            if (target < nums[mid]) { // if the targeted element is on the left side of the middle element
                 end = mid - 1;
-            } else if (target > arr[mid]) { // if the targeted element is on the right side of the middle element
+            } else if (target > nums[mid]) { // if the targeted element is on the right side of the middle element
                 start = mid + 1;
             } else {
                 return mid;
@@ -30,4 +30,6 @@ public class BinarySearch_In_Asc_Array {
 
         return -1;
     }
+
+
 }

@@ -13,10 +13,10 @@ public class CyclicSort {
 //        int i = 0;
 //        int n = arr.length;
 //        while (i < n) {
-//            if (arr[i] == i + 1) {
-//                i++;
-//            } else {
+//            if (arr[i] != i + 1) {
 //                swap(arr, i, arr[i] - 1);
+//            } else {
+//                i++;
 //            }
 //        }
 //    }

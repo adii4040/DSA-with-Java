@@ -1,4 +1,4 @@
-package BinarySearch.Questions.Medium;
+package BinarySearch.Questions.Hard;
 
 public class Search_In_Rotated_Array {
     public static void main(String[] args) {
